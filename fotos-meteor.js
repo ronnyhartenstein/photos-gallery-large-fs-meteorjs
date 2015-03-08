@@ -1,23 +1,26 @@
-if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
 
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
+//var imageStore = new FS.Store.FileSystem("images", {
+//  path: "~/media"
+//});
 
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
-  });
-}
+//Images = new FS.Collection("images", {
+//  stores: [imageStore]
+//});
+//console.log(Images.find());
 
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
-}
+
+
+//var fs = Npm.require('fs');
+
+//function getImages() {
+//    var liste = [];
+//    fs.readdir('media', function(err, files) {
+//        //if (err) throw err;
+//        files.forEach(function(file) {
+//            liste.push({ name: file, url:"/media/" + file });
+//        });
+//        //console.log(liste);
+//    });
+//    return liste;
+//}
+

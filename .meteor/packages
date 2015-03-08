@@ -11,9 +11,8 @@ andruschka:bootstrap-image-gallery
 andruschka:bootstrap-paper
 cfs:standard-packages
 cfs:filesystem
-cfs:graphicsmagick
 bootstrap
 less
 jquery
 underscore
-fortawesome:fontawesome
+coffeescript

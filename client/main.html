@@ -1,0 +1,16 @@
+<head>
+  <title>fotos-meteor</title>
+</head>
+
+<body>
+  <h1>Fotos</h1>
+
+  Dateiliste TEST
+  <div class="fileList">
+      {{#each files}}
+          {{> file}}
+      {{/each}}
+  </div>
+<br><br/>
+  <div class="currFile">akt Datei: {{currFile}}</div>
+</body>

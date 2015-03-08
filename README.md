@@ -1,5 +1,7 @@
-Fotogallery with Meteor.js
+Photo gallery with Meteor.js
 ==========================
+
+photo gallery of a large filestructure using meteorjs
 
 
 Filesystem Walker
@@ -25,3 +27,6 @@ https://atmospherejs.com/cfs/graphicsmagick
 
 meteor add cfs:graphicsmagick
 
+
+
+https://github.com/rhyslbw/MeteorJS-Server-Directory-Browser/blob/develop

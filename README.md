@@ -3,7 +3,7 @@ Photo gallery with Meteor.js
 
 photo gallery of a large filestructure using meteorjs
 
-*Attention!* I stopped dev because Lychee does a really good job!
+*Attention!* I stopped dev because [Lychee](https://github.com/electerious/Lychee) does a really good job!
 
 
 
